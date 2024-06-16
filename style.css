@@ -7,22 +7,14 @@ body{
   background-size: 180% 180%;
     
 }
-.full{
-    width: 305px;
-    height: 470px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border-radius: 10px;
-}
+
 .calculator{
     flex-direction: column;
     max-width: 500px;
     overflow: hidden; 
     font-family: Arial, sans-serif;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 5px solid black;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.467);
 }
 #display{
@@ -35,8 +27,11 @@ body{
     border: none;
     color: white;
     border-radius: 10px 10px 0px 0px;
-    background-color: rgb(155, 153, 148);
-    
+    background: rgba(159, 151, 151, 0.74);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(20px);
+        
 }
 .btn{
     display: grid;
@@ -47,6 +42,8 @@ body{
     border-radius: 0px 0px 10px 10px;
     background-color: rgb(66, 62, 62) !important;
 }
+
+
 button{
     height: 60px;
     width: 61px;
@@ -65,6 +62,7 @@ button:hover{
 }
 button:active{
     transform: scale(0.90);
+
 }
 
 .operator{
@@ -74,9 +72,11 @@ button:active{
 .operator:hover{
     background-color: rgb(230, 150, 2);
 }
+
 .clearr{
     grid-column: span 3;
     width: 204px;
+    
 }
 
 .zeroo{

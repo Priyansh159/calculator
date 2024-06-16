@@ -47,8 +47,6 @@ body{
     border-radius: 0px 0px 10px 10px;
     background-color: rgb(66, 62, 62) !important;
 }
-
-
 button{
     height: 60px;
     width: 61px;
@@ -58,13 +56,15 @@ button{
     margin-left: 10px;
     font-size: 27px;
     cursor: pointer;
+    background-color: whitesmoke;
+    transition: transform 0.1s ease;
 }
 
 button:hover{
-    background-color: rgb(171, 169, 169);
+    background-color: rgb(210, 207, 207);
 }
 button:active{
-    background-color: rgb(121, 120, 120);
+    transform: scale(0.90);
 }
 
 .operator{
@@ -74,11 +74,6 @@ button:active{
 .operator:hover{
     background-color: rgb(230, 150, 2);
 }
-
-.operator:active{
-    background-color: rgb(173, 114, 4);
-}
-
 .clearr{
     grid-column: span 3;
     width: 204px;
@@ -87,4 +82,14 @@ button:active{
 .zeroo{
     grid-column: span 2;
     width: 132px;
+}
+
+@media (max-width: 460px){
+    .operator:hover{
+        background-color: rgb(255, 166, 0);
+    }
+        
+    button:hover{
+        background-color: whitesmoke;
+    }
 }

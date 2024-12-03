@@ -2,7 +2,7 @@
 
 This project provides a basic Calculator with simple but enhanced UI. 
 
-Live Demo
+<h1>Live Demo</h1>
 
 Access the project live here: [Click Me !!](https://priyansh159.github.io/calculator/)
 

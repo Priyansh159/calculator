@@ -10,5 +10,5 @@ Access the project live here: [Click Me !!](https://priyansh159.github.io/calcul
 
 <img width="442" alt="Calculator" src="https://github.com/user-attachments/assets/42fb56b6-a942-44e4-bee0-e6071339a2be">
 
-#Easter-Egg 🤫
-try "159="
+<h5>Easter-Egg</h5> 🤫<br>
+Try ["1" "5" "9" "="] in calculator
